@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="107" viewBox="0 0 107 107">
+  <defs>
+    <filter id="Ellipse_21" x="0" y="0" width="107" height="107" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_18" x="5" y="5" width="97" height="97" filterUnits="userSpaceOnUse">
+      <feOffset dx="6" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur-2"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_151" data-name="Group 151" transform="translate(-836.5 -840.5)">
+    <g transform="matrix(1, 0, 0, 1, 836.5, 840.5)" filter="url(#Ellipse_21)">
+      <circle id="Ellipse_21-2" data-name="Ellipse 21" cx="31" cy="31" r="31" transform="translate(16.5 16.5)" fill="#f1f1f1"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 836.5, 840.5)" filter="url(#Ellipse_18)">
+      <circle id="Ellipse_18-2" data-name="Ellipse 18" cx="26" cy="26" r="26" transform="translate(21.5 21.5)" fill="#fff"/>
+    </g>
+    <path id="Path_160" data-name="Path 160" d="M11,152.114q-4.3,0-8.6,0a2.346,2.346,0,0,1-2.364-1.944A2.134,2.134,0,0,1,0,149.756q0-8.64,0-17.281a2.336,2.336,0,0,1,2.37-2.359q8.628,0,17.256,0A2.336,2.336,0,0,1,22,132.5q0,8.616,0,17.232a2.339,2.339,0,0,1-2.394,2.384q-4.3,0-8.6,0M9.414,138.379q0-2.107,0-4.214a.776.776,0,0,0-.873-.877q-2.242,0-4.484,0a.782.782,0,0,0-.883.893q0,4.19,0,8.38a.783.783,0,0,0,.886.89q2.23,0,4.459,0c.609,0,.894-.29.895-.906q0-2.083,0-4.165m3.172-1.182q0,1.507,0,3.014a.783.783,0,0,0,.89.886q2.229,0,4.459,0a.782.782,0,0,0,.891-.885q0-3.013,0-6.027a.785.785,0,0,0-.9-.9H13.491a.787.787,0,0,0-.9.9q0,1.507,0,3.014" transform="translate(872.999 746.885)" fill="#0565ff"/>
+  </g>
+</svg>

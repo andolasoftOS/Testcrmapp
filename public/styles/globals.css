@@ -1,0 +1,6 @@
+/* @import '~bootstrap/scss/bootstrap'; */
+@import 'bootstrap.min';
+@import 'style';
+@import 'animate';
+@import 'style_1';
+@import 'responsive';

@@ -20,9 +20,9 @@ jobs:
 
     - name: Deploy via SSH
       env:
-        SSH_USER: root
+        SSH_USER: andoladeploy
         SSH_HOST: 45.114.48.221
-        PROJECT_PATH: /var/www/github-action/Testcrmapp
+        PROJECT_PATH: /home/andoladeploy/workspace/Testcrmapp
       run: |
         ssh -p 2222 -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST << EOF
           cd $PROJECT_PATH
@@ -30,5 +30,5 @@ jobs:
           rm -rf .next
           npm install
           npm run build
-          pm2 restart 28
+          pm2 restart github-action  || pm2 start npm --name "github-action" -- start
         EOF

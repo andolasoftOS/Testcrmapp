@@ -13,8 +13,8 @@ const nextConfig = {
 	},
 	env: {
 		WORDPRESS_GRAPHQL_ENDPOINT:
-			"https://oshelpdesk-api.andolasoft.co.in/graphql",
-		WORDPRESS_URL: "https://oshelpdesk-api.andolasoft.co.in",
+			"https://api-crmleafapp.andolasoft.co.in/graphql",
+		WORDPRESS_URL: "https://api-crmleafapp.andolasoft.co.in",
 	},
 	async redirects() {
 		return [

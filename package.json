@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev -H  192.168.2.242 -p 3130",
     "build": "next build",
-    "start": "next start -p 3001",
+    "start": "next start -p 3056",
     "lint": "next lint"
   },
   "dependencies": {

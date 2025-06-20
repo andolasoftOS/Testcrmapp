@@ -47,7 +47,7 @@ const DocBanner = () => {
 
       <div className="container">
         <div className="doc_banner_text_two text-center">
-          <h2>How can we help?</h2>
+          <h2>Whom can we help?</h2>
           <p>Everything you need to know about Orangescrum in one place</p>
           <form onSubmit={handleSearch} className="banner_search_form">
             <input
